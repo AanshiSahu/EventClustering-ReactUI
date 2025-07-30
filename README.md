@@ -1,8 +1,8 @@
-# 📊 EventClustering-ReactUI
+# EventClustering-ReactUI
 
 This project demonstrates a custom **K-Means clustering implementation** on event location data and features a **React-based frontend** for visualizing the results. It combines data processing in Python with a dynamic UI built in React.js.
 
-## 📁 Project Structure
+## Project Structure
 
 EventClustering-ReactUI/
 ├── frontend/ # React frontend application
@@ -25,14 +25,14 @@ EventClustering-ReactUI/
 │
 └── README.md
 
-## 🧪 Clustering Logic (Python)
+## Clustering Logic (Python)
 
 - Implemented **K-Means clustering from scratch**
 - Used **latitude** and **longitude** to group spatially close events
 - Applied **Elbow Method** to determine the optimal number of clusters
 - Assigned cluster labels to each event in the dataset
 
-## 🧹 Cleaned Files and Their Purpose
+## Cleaned Files and Their Purpose
 
 To prepare the data and code for integration with the React frontend and ensure clarity for reviewers:
 
@@ -44,14 +44,14 @@ To prepare the data and code for integration with the React frontend and ensure 
   Cleaned to include only relevant columns such as `Latitude`, `Longitude`, `Event Count`, `Event Duration`, and `Cluster` — improving frontend parsing and readability.
   | `data/cleaned_clustered_output.csv` | Cleaned dataset for frontend display |
 
-## 🌐 React Frontend
+## React Frontend
 
 - Built using [Create React App](https://github.com/facebook/create-react-app)
 - Parses cleaned CSV using `PapaParse`
 - Displays clustered events in an interactive table
 - Easy to extend with charts, maps, or filters
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites:
 - Node.js and npm installed
@@ -61,7 +61,7 @@ To prepare the data and code for integration with the React frontend and ensure 
 - npm install       # Install dependencies
 - npm start         # Run frontend on http://localhost:3000
 
-📦 Scripts (from frontend directory)
+ Scripts (from frontend directory)
 Command	Purpose
 - npm start   	Runs the app in development mode
 - npm run build   	Builds the app for production
@@ -73,7 +73,7 @@ File	Description
 clustered_output.csv -	Raw output with full clustering results
 cleaned_clustered_output.csv -	Final version used in frontend (cleaned columns)
 
-💡 Future Improvements
+ Future Improvements
 
 - Allow dynamic CSV uploads
 - Display Elbow graph in frontend
@@ -81,6 +81,3 @@ cleaned_clustered_output.csv -	Final version used in frontend (cleaned columns)
 🙋‍♀️ Author
 Aanshi Sahu
 aanshisahu08@gmail.com
-
-📃 License
-This project is intended for submission and evaluation purposes. No license has been applied.
