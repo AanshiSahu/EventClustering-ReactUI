@@ -80,7 +80,7 @@ cleaned_clustered_output.csv -	Final version used in frontend (cleaned columns)
 
 🙋‍♀️ Author
 Aanshi Sahu
-aanshisahu08@gmailcom
+aanshisahu08@gmail.com
 
 📃 License
 This project is intended for submission and evaluation purposes. No license has been applied.
