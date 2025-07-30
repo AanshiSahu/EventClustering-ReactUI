@@ -79,5 +79,5 @@ cleaned_clustered_output.csv -	Final version used in frontend (cleaned columns)
 - Display Elbow graph in frontend
 
 🙋‍♀️ Author
-Aanshi Sahu
-aanshisahu08@gmail.com
+- Aanshi Sahu
+- aanshisahu08@gmail.com
