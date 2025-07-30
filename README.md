@@ -57,15 +57,15 @@ To prepare the data and code for integration with the React frontend and ensure 
 - Node.js and npm installed
 
 ### Setup Instructions:
--cd frontend
--npm install       # Install dependencies
--npm start         # Run frontend on http://localhost:3000
+- cd frontend
+- npm install       # Install dependencies
+- npm start         # Run frontend on http://localhost:3000
 
 📦 Scripts (from frontend directory)
 Command	Purpose
--npm start   	Runs the app in development mode
--npm run build   	Builds the app for production
--npm test   	Runs tests (optional)
+- npm start   	Runs the app in development mode
+- npm run build   	Builds the app for production
+- npm test   	Runs tests (optional)
 
 📁 Output Files
 
@@ -75,8 +75,8 @@ cleaned_clustered_output.csv -	Final version used in frontend (cleaned columns)
 
 💡 Future Improvements
 
-Allow dynamic CSV uploads
-Display Elbow graph in frontend
+- Allow dynamic CSV uploads
+- Display Elbow graph in frontend
 
 🙋‍♀️ Author
 Aanshi Sahu
